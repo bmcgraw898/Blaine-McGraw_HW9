@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>BAIS Student Survey — Page 1</title>
+  
+</head>
+<body>
+  <main class="wrap">
+    <h1>Business Analytics<br>Student Survey</h1>
+      <!-- Home country (autofocus) -->
+       <div class="field">
+        <label for="country">My home country is</label><br>
+        <input id="country" name="country" type="text" autocomplete="country-name" autofocus>
+      </div>
+
+      <!-- Home town (required + tooltip) -->
+      <div class="field">
+        <label for="hometown">My home town is</label>
+        <button type="button" title="What town did you live in before coming to college?">?</button><br>
+        <input id="hometown" name="hometown" type="text" required>
+      </div>
+
+      <!-- Home state (dropdown) -->
+        <div class="field">
+        <label for="state">My home state is</label><br>
+        <select name="state" id="state">
+          <option value="">-- choose state/territory --</option>
+    <option value="AL">AL</option>
+    <option value="AK">AK</option>
+    <option value="AZ">AZ</option>
+    <option value="AR">AR</option>
+    <option value="CA">CA</option>
+    <option value="CO">CO</option>
+    <option value="CT">CT</option>
+    <option value="DE">DE</option>
+    <option value="FL">FL</option>
+    <option value="GA">GA</option>
+    <option value="HI">HI</option>
+    <option value="ID">ID</option>
+    <option value="IL">IL</option>
+    <option value="IN">IN</option>
+    <option value="IA">IA</option>
+    <option value="KS">KS</option>
+    <option value="KY">KY</option>
+    <option value="LA">LA</option>
+    <option value="ME">ME</option>
+    <option value="MD">MD</option>
+    <option value="MA">MA</option>
+    <option value="MI">MI</option>
+    <option value="MN">MN</option>
+    <option value="MS">MS</option>
+    <option value="MO">MO</option>
+    <option value="MT">MT</option>
+    <option value="NE">NE</option>
+    <option value="NV">NV</option>
+    <option value="NH">NH</option>
+    <option value="NJ">NJ</option>
+    <option value="NM">NM</option>
+    <option value="NY">NY</option>
+    <option value="NC">NC</option>
+    <option value="ND">ND</option>
+    <option value="OH">OH</option>
+    <option value="OK">OK</option>
+    <option value="OR">OR</option>
+    <option value="PA">PA</option>
+    <option value="RI">RI</option>
+    <option value="SC">SC</option>
+    <option value="SD">SD</option>
+    <option value="TN">TN</option>
+    <option value="TX">TX</option>
+    <option value="UT">UT</option>
+    <option value="VT">VT</option>
+    <option value="VA">VA</option>
+    <option value="WA">WA</option>
+    <option value="WV">WV</option>
+    <option value="WI">WI</option>
+    <option value="WY">WY</option>
+    <!-- Added Washington D.C. -->
+    <option value="DC">DC - Washington D.C.</option>
+    <!-- Added U.S. Territories -->
+    <option value="AS">AS - American Samoa</option>
+    <option value="GU">GU - Guam</option>
+    <option value="MP">MP - Northern Mariana Islands</option>
+    <option value="PR">PR - Puerto Rico</option>
+    <option value="VI">VI - U.S. Virgin Islands</option>
+</select>
+      </div>
+
+      <!-- Impression of BAIS (Likert required) -->
+      <div class="field required">
+        <div class="label-row">
+          <label for="impression">My impression of the BAIS major is</label>
+        </div>
+        <select id="impression" name="impression" required>
+          <option value="">— Select one —</option>
+          <option value="5">Very positive (5)</option>
+          <option value="4">Somewhat positive (4)</option>
+          <option value="3">Neutral (3)</option>
+          <option value="2">Somewhat negative (2)</option>
+          <option value="1">Very negative (1)</option>
+        </select>
+      </div>
+
+      <div class="footer-row">
+        <span class="page-note">page 1 of 2</span>
+          <button onclick="window.location.href='BlaineMcGraw_p2.html';">Next</button>
+
+      </div>
+  </main>
+</body>
+</html>
