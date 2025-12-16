@@ -1,10 +1,72 @@
-# Blaine-McGraw_HW9
-Create a WebForm
-This project is a multi-page web survey titled “Business Analytics Student Survey.”
-It collects background and academic information from students in the BAIS program through a simple form. The purpose is to help the department better understand the student population and their experiences in the major.
-This web form follows several industry best practices to ensure usability, clarity, and data accuracy.
-First, the survey uses a logical and consistent page flow, breaking the form into two pages to prevent user fatigue. Page 1 collects demographic details such as home country, home town, and home state, while Page 2 gathers academic information about a student’s year at Iowa and completed BAIS core courses. Separating the form into smaller steps is considered a best practice because it improves completion rates and makes users feel more in control of the process.
-Second, every input field uses clear labels and appropriate form controls. Text boxes are provided for open ended questions, and dropdowns or checkboxes are used where fixed responses are appropriate like state selection and course checklists. The “required” attribute is applied to critical questions, which ensures that essential information is collected without overwhelming users. The submit and navigation buttons Next, Back, and Finish are positioned consistently and labeled clearly, which improves form navigation.
-Third, the form follows best practices for user guidance and validation. The autofocus attribute is used on the first input to streamline data entry. Tooltip text offers additional guidance without cluttering the layout. A separate Thank You page provides feedback after submission, confirming that the user’s response has been saved, another usability best practice that reassures users their input was received successfully.
-The form includes several features that enhance accessibility for all users.
-Each input control is associated with a <label> element using the for attribute, ensuring compatibility with screen readers. The HTML structure uses semantic elements such as main and form, which improves navigation for users relying on assistive technologies. Color contrast between text and background meets accessibility guidelines, and the layout uses a single column format, making it easy to read on various screen sizes and devices. Additionally, tooltips and field labels provide descriptive context without relying on visual cues alone, which supports users with cognitive or visual impairments. Overall, the survey’s design prioritizes clarity, keyboard navigation, and compatibility with assistive technologies—key principles of accessible web design.
+# HW9 – Static Web Application Deployment 🌐
+
+This repository contains the source code and deployment files for **Homework 9**, which focuses on building and deploying a **static web application** using modern web technologies and cloud hosting.
+
+---
+
+## 📌 Project Overview
+
+The goal of this assignment was to design, implement, and deploy a static website while following best practices for structure, accessibility, and deployment. The project demonstrates fundamental front-end development skills and cloud deployment using **Azure Static Web Apps**.
+
+This project highlights:
+- Static website development using HTML, CSS, and JavaScript  
+- Clean project organization  
+- Cloud deployment using Azure  
+- Version control with GitHub  
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Page structure and content  
+- **CSS3** – Styling and layout  
+- **JavaScript** – Interactivity and dynamic behavior  
+- **Azure Static Web Apps** – Cloud hosting and deployment  
+- **Git & GitHub** – Version control  
+
+---
+
+## 📂 Repository Structure
+- `index.html` – Main landing page  
+- `assets/` – Project assets  
+  - `assets/css/` – Stylesheets  
+  - `assets/js/` – JavaScript files  
+  - `assets/images/` – Images and media  
+- `README.md` – Project documentation 
+
+---
+
+## 🚀 Deployment
+
+This site is deployed using **Azure Static Web Apps**, which automatically builds and hosts the site directly from this GitHub repository.
+
+Any updates pushed to the repository will trigger a redeployment to the live site.
+
+---
+
+## ♿ Accessibility & Best Practices
+
+- Semantic HTML structure
+- Responsive design for desktop and mobile
+- Clear navigation and readable layout
+- Organized file structure
+
+---
+
+## 🎓 Course Context
+
+This project was completed as part of coursework in **Digital Product Management** at the **University of Iowa – Tippie College of Business**.
+
+---
+
+## 📬 Contact
+
+**Blaine McGraw**  
+- GitHub: https://github.com/bmcgraw898  
+- Portfolio: https://blainemcgraw.com  
+
+---
+
+## 📄 License
+
+This project is for educational purposes.
